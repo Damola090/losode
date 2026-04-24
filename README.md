@@ -28,7 +28,7 @@ A RESTful API built with **Laravel + SQLite** for a multi-vendor product and inv
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/losode-vendor-api.git
+git clone https://github.com/Damola090/losode.git
 cd losode-vendor-api
 ```
 
