@@ -498,10 +498,6 @@ This runs inside a `DB::transaction`. Only one request can satisfy the `WHERE` c
 
 Laravel Sanctum issues opaque API tokens stored as SHA-256 hashes. Old tokens are revoked on each login to prevent accumulation. Tokens can also be scoped with abilities for fine-grained permission control.
 
-### Caching
-
-Active product listings are cached in Redis for 5 minutes. The cache is automatically cleared whenever a vendor creates, updates, or deletes a product. Search queries bypass the cache entirely.
-
 ---
 
 ## Assumptions
